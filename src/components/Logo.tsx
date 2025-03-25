@@ -8,26 +8,6 @@ const strokeStyle = {
   strokeWidth: 0,
 };
 
-const style2 = {
-  ...defaultStyle,
-  fontSize: '74.7706px',
-  fontFamily: 'SF Sports Night',
-  ...strokeStyle,
-};
-
-const style3 = {
-  ...defaultStyle,
-  ...strokeStyle,
-  strokeDasharray: 'none',
-};
-
-const style4 = {
-  ...defaultStyle,
-  fontSize: '21.0016px',
-  fontFamily: 'SF Sports Night NS',
-  ...strokeStyle,
-};
-
 export function Logo() {
   return (
     <svg
