@@ -1,13 +1,3 @@
-const defaultStyle = {
-  fill: '#ef3340',
-  fillOpacity: 1,
-};
-
-const strokeStyle = {
-  stroke: '#000000',
-  strokeWidth: 0,
-};
-
 export function Logo() {
   return (
     <svg
